@@ -1,5 +1,4 @@
 const cart = document.querySelectorAll('.cart');
-
 let currentNumber = 0;
 cart.forEach(c =>
   c.addEventListener('click', function (e) {
@@ -22,5 +21,6 @@ cart.forEach(c =>
       c.children[0].children[1].textContent = currentNumber;
     }
     document.querySelector('#item').textContent = currentNumber;
+    c.closest('.img--cart').children[0].style.border = '2px solid var(--Red)'
   })
 );
