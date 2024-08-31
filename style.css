@@ -151,7 +151,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  color: var(--Rose-50);
+  color: #fff;
   margin: auto;
   padding: 10px;
   border-radius: 35px;
