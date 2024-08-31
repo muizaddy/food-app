@@ -3,14 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <!-- <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    /> -->
     <link
       rel="icon"
       type="img/png"
@@ -20,7 +13,7 @@
     />
     <title>Captain Cook</title>
 <link rel="stylesheet" href="style.css">
-<script defer src="./main.js"></script>
+
   </head>
   <body>
     <main class="container">
@@ -33,7 +26,10 @@
           <div class="card--1 card">
             <div class="img--cart">
               <img src="./assets/images/img--1.jpg" alt="IMG-1" />
-            <div class="cart"><img src="./assets/images/icon-add-to-cart.svg" alt="cart-image"><span class="cart-text">Add to Cart</span> </div>
+            <div class="cart"><img src="./assets/images/icon-add-to-cart.svg" alt="cart-image"><span class="cart-text">Add to Cart</span> 
+           
+            
+            </div>
             </div>
             <div class="pro--text"> 
   <div class="title">Waffle</div> 
@@ -45,7 +41,11 @@
           <div class="card--2 card">
               <div class="img--cart">
                 <img src="./assets/images/img--2.jpg" alt="IMG-2" />
-                <div class="cart"><img src="./assets/images/icon-add-to-cart.svg" alt=""><span class="cart-text">Add to Cart</span> </div>
+               
+                <div class="cart">
+                  <img src="./assets/images/icon-add-to-cart.svg" alt="">
+              <span class="cart-text">Add to Cart</span>
+            </div>
               
             </div>
 
@@ -152,7 +152,7 @@
 
         <section class="cart_container">
         <div class="cart_inner">
-          <h1>Your Cart(0)</h1> 
+          <h1>Your Cart(<span class="item__number">0</span>)</h1> 
           <img src="./assets/images/illustration-empty-cart.svg" alt="Empty">
            <p class="info">Your added items will appear here</p>
         </div>
@@ -160,8 +160,7 @@
       </div>
     </main>
     
-
-
-  </div>
-  </body>
+  <!-- <script src="main.js"></script> -->
+<script src="./cart.js"></script>
+</body>
 </html>
