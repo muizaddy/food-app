@@ -830,4 +830,27 @@ margin: auto;
 height: auto;
 }
 
+.fa-bars-staggered{
+  display: block;
+  opacity: 1;
+  cursor: pointer;
+  right: 50px;
+transition: all 0.2s ease-in-out;
+z-index: 100;
+color: #fff;
+/* opacity: 0; */
+  transition: opacity 1s;
+}
+
+.fa-xmark{
+  opacity: 0;
+  cursor: pointer;
+  color: #fff;
+ 
+  transition: opacity 1s;
+z-index: 100;
+color: #292929;
+} 
+
+
 }
