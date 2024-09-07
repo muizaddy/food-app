@@ -5,6 +5,7 @@ const bars = document.querySelector('.fa-bars-staggered')
 const del = document.querySelector('.fa-xmark')
 
 bars.addEventListener('click', function () {
+  
   del.style.display = 'block'
 document.querySelector('.lists').style.opacity = 1;
 bars.style.display = 'none'
