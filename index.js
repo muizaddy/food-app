@@ -1,11 +1,11 @@
 'use strict'
 
-const bars = document.querySelector('.fa-bars-staggered')
+const bars = document.querySelector('.fa-bars')
 
 const del = document.querySelector('.fa-xmark')
 
 bars.addEventListener('click', function () {
-  
+
   del.style.display = 'block'
 document.querySelector('.lists').style.opacity = 1;
 bars.style.display = 'none'
@@ -21,3 +21,10 @@ del.addEventListener('click', function () {
   del.style.opacity = 0;
   del.style.display = 'none'
 })
+// const stickyNav = 
+const order = document.querySelector('.btn--order')
+order.getBoundingClientRect().height
+
+new IntersectionObserver(obs)
+
+
