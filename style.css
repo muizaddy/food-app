@@ -122,7 +122,6 @@ background-color: #fff;
 .section{
   border-bottom: 1px solid #04103059;
   box-shadow: 0px 1px 1px -1px #04103059;
-
 }
 .section .container{
   padding: 120px 50px;
@@ -366,14 +365,7 @@ font-size: 15px;
 #section--3 .test-head{
 color: #fff;
 padding: 20px;
-
 }
-
-/* JS needed */
-/* @keyframes blur { */
-  /* 0%{filter: blur(20px);} */
-  /* 100%{filter: blur(0px);} */
-/* } */
 
 
 
@@ -538,6 +530,7 @@ footer.foot{
 }
 
 .delete{
+  display: none;
   height: 50px;
   cursor: pointer;
   top: 50px;
