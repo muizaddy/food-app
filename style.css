@@ -339,16 +339,25 @@ font-size: 15px;
 /* } */
 /*  */
 /*****  SERVICES  ******/
+#section--2.section{
+  padding: 0;
+  margin: 0;
+}
 #section--2 .container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
 
 }
-
+.container-content{
+  width: 40%;
+}
 .serv--img{
-  width: 50px; 
-    margin-bottom: 30px;
+  width: 40%;
+  /* margin-left: 50px; */
+    margin: 10%;
 }
 .service--head{
   color: #b35d06;
