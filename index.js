@@ -1,30 +1,21 @@
 'use strict'
 
-const bars = document.querySelector('.fa-bars')
-
-const del = document.querySelector('.fa-xmark')
-
-bars.addEventListener('click', function () {
-
-  del.style.display = 'block'
-document.querySelector('.lists').style.opacity = 1;
-bars.style.display = 'none'
-del.style.opacity = 1;
-del.style.position = 'absolute'
-del.style.top = '40px'
-del.style.right = '50px'
+const hamburger = document.querySelector('.hamburger')
+const lists = document.querySelector('.lists')
+const del = document.querySelector('.delete')
+hamburger.addEventListener('click', function () {
+  lists.style.display = 'flex'
+  lists.style.opacity = 1;
+  lists.style.transition = 'all .5s'
+  hamburger.style.display = 'none';
+   del.style.display = 'flex'
 })
-del.addEventListener('click', function () {
-  document.querySelector('.lists').style.opacity = 0;
-  bars.style.display = 'block'
-  bars.style.opacity = 1
-  del.style.opacity = 0;
-  del.style.display = 'none'
+
+del.addEventListener('click', function(){
+  lists.style.opacity = 0.5;
+  lists.style.transition = 'all 8s'
+  lists.style.display = 'none'
+   del.style.display = 'none'
+   hamburger.style.display = 'block';
 })
-// const stickyNav = 
-const order = document.querySelector('.btn--order')
-order.getBoundingClientRect().height
-
-new IntersectionObserver(obs)
-
 
