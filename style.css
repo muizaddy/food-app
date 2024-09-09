@@ -563,7 +563,7 @@ footer.foot{
     20%{color: transparent;  display: inline-block;} 
     40%{color: transparent; } 
     60%{color: transparent; } 
-   100%{color: #fff;width: 166.5%; display: inline-block;} 
+   100%{color: #fff;width: 100%; display: inline-block;} 
   }
 
 }
