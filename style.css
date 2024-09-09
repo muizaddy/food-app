@@ -342,13 +342,14 @@ font-size: 15px;
 #section--2.section{
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 #section--2 .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  margin: 0px;
+  margin: 0px auto;
+ 
 
 }
 .container-content{
@@ -356,13 +357,17 @@ font-size: 15px;
 }
 .serv--img{
   width: 40%;
-  /* margin-left: 50px; */
+  height: auto;
     margin: 10%;
 }
 .service--head{
   color: #b35d06;
 }
-/* A person sleeps an average  25 years in their lifetime */
+#section--3 .test-head{
+color: #fff;
+padding: 20px;
+
+}
 
 /* JS needed */
 /* @keyframes blur { */
@@ -563,7 +568,14 @@ footer.foot{
     cursor: default;
     
   }
- 
+ .serv--img{
+  width: 50%;
+  height: auto;
+ }
+ .container-content{
+  width: 40%;
+  height: 50%;
+ }
   .hero__content h2{
     padding: 40px 0px;
   }
